@@ -1,0 +1,115 @@
+@charset "UTF-8";
+header {
+	background-color:#CA7013;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+h1  {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #F7EADC;
+    padding-left: 10%;
+    font-variant: normal;
+    font-size: 210%;
+    text-align: center;
+    text-shadow: 1px 1px 0 #ED9C10;
+		}
+h2 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: oblique;
+    color: #FBB770;
+    padding-left: 10%;
+    font-size: xx-large;
+		}
+h4, h5 {
+    font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+    color: #F9CFA2;
+	padding-left: 20%;
+	padding-right: 20%;
+		}
+h3 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: oblique;
+    color: #F9CFA2;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: larger;
+		}
+p {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: darkslategrey;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.imgCenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+.rightAlign2 {
+		float: right;
+		padding-left: 20%;
+		}
+a {
+    color:#FF8302;
+    text-decoration: none;
+    font-weight: bold;
+	background-color:#F7EADC;
+	
+}
+a:hover {
+	color:#F7EADC;
+	background-color:#FF8302;
+}
+footer{
+	padding: 200px;
+	background-color: #F9CFA2;
+	color: #FBA446;
+	
+}
+.button a{
+    background-color: #CA7013;
+    color: #F7EADC;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.button a:hover {
+	background-color:#F7EADC;
+	color:#CA7013;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rightAlign {
+	float: right;
+	padding-left:5%;
+	padding-bottom: 20%;
+}
+.leftAlign {
+	float: left;
+}
+.threeColumn {
+	column-count: 3;
+	column-gap: 15px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
