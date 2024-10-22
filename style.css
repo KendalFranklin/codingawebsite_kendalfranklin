@@ -10,27 +10,55 @@ h1  {
     font-weight: 400;
     font-style: normal;
     color: #F7EADC;
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-variant: normal;
-    font-size: 210%;
+    font-size: 233%;
     text-align: center;
-    text-shadow: 1px 1px 0 #ED9C10;
 		}
 h2 {
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-style: oblique;
+    font-style: normal;
     color: #FBB770;
     padding-left: 10%;
     font-size: xx-large;
 		}
-h4, h5 {
+h8 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7EADC;
+    padding-left: 10%;
+    font-size: xx-large;
+		}
+h4 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #F9CFA2;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: larger;
+		}
+h5 {
+    font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: large;
+    color: #F7EADC;
+	padding-left: 20%;
+	padding-right: 20%;
+		}
+h10 {
     font-family: "Bodoni Moda", serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-    color: #F9CFA2;
+    color: #F7EADC;
 	padding-left: 20%;
 	padding-right: 20%;
 		}
@@ -38,16 +66,40 @@ h3 {
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-style: oblique;
-    color: #F9CFA2;
+    font-style: normal;
+    color: #F2A75D;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: larger; 
+		}
+h9 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7EADC;
     padding-left: 20%;
     padding-right: 20%;
     font-size: larger;
+    text-align: left;
+		}
+h6 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #F9CFA2;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: x-large;
+	text-decoration: underline
 		}
 p {
-	padding-left: 20%;
-	padding-right: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+;     font-size: large;
 }
+
 body {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     color: darkslategrey;
@@ -63,6 +115,8 @@ body {
 .rightAlign2 {
 		float: right;
 		padding-left: 20%;
+	padding-right: 10%;
+	overflow:auto;
 		}
 a {
     color:#FF8302;
@@ -70,6 +124,9 @@ a {
     font-weight: bold;
 	background-color:#F7EADC;
 	
+}
+.background{
+	background-color: #F9CFA2;
 }
 a:hover {
 	color:#F7EADC;
@@ -89,6 +146,8 @@ footer{
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 .button a:hover {
 	background-color:#F7EADC;
@@ -103,9 +162,12 @@ footer{
 	float: right;
 	padding-left:5%;
 	padding-bottom: 20%;
+	padding-right: 10%;
+	overflow:auto;
 }
 .leftAlign {
 	float: left;
+	overflow:auto;
 }
 .threeColumn {
 	column-count: 3;
