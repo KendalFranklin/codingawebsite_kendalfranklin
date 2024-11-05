@@ -95,17 +95,15 @@ h6 {
 	text-decoration: underline
 		}
 p {
-    padding-left: 20%;
-    padding-right: 20%;
-;     font-size: large;
+    padding-left: 10%;
+    padding-right: 10%;
+     font-size: large;
 }
 
 body {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     color: darkslategrey;
     margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 .imgCenter {
 		display: block;
@@ -117,6 +115,7 @@ body {
 		padding-left: 20%;
 	padding-right: 10%;
 	overflow:auto;
+	border: 3px #F9CFA2;
 		}
 a {
     color:#FF8302;
@@ -133,9 +132,12 @@ a:hover {
 	background-color:#FF8302;
 }
 footer{
-	padding: 200px;
+	padding: 20px;
 	background-color: #F9CFA2;
-	color: #FBA446;
+	color: #FBA446;	
+   left: 0;
+   bottom: 0;
+   width: 100%;overflow: auto;
 	
 }
 .button a{
@@ -175,3 +177,35 @@ footer{
 	padding-left: 5%;
 	padding-right: 5%;
 }
+.twoColumn {
+	column-count: 2;
+	column-gap: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F7EADC;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+ul.topnav li {float: left;
+width: 25%;
+text-align:center;}
+
+ul.topnav li a {
+	display: block;
+	color:#FF8202;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color:#CA7013}
+
+ul.topnav li a.active {background-color:#F7EADC}
+
+ul.topnav li.right {float: right;}
